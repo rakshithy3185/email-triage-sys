@@ -32,8 +32,9 @@ def send_email(to_address, subject, body):
 
 if __name__ == "__main__":
     send_email(
-        to_address="bhoomi901jain@gmail.com",
+        to_address="rakshithy3185@gmail.com",
         subject="🚀 Email Triage System Test",
         body="This is a test email sent from your Python script!"
     )
+
 
