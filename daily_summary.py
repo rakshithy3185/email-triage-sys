@@ -45,7 +45,7 @@ def send_daily_summary():
     subject = "📬 Daily Email Triage Summary"
 
     # Set this to your or team's email
-    to_address = "bhoomi901jain@gmail.com"
+    to_address = "rakshithy3185@gmail.com"
 
     send_email(to_address=to_address, subject=subject, body=body)
     print("✅ Daily summary email sent.")
@@ -53,3 +53,4 @@ def send_daily_summary():
 # Run this if script is triggered
 if __name__ == "__main__":
     send_daily_summary()
+
